@@ -1,0 +1,10 @@
+# Ignore specific files
+file.txt
+secret.key
+.env
+
+# Ignore a directory
+logs/
+node_modules/
+.vscode/
+.next/
