@@ -70,6 +70,8 @@ export default function LoginPage() {
                 
                 />
 
+                <Link className=" text-blue-400 text-xs" href={'/forgotPassword'} >Forgot Password?</Link>
+
                 <button 
                     onClick={onLogin}
                     className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
